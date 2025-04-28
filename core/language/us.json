@@ -1059,6 +1059,9 @@
 		"achange6": "Successfully added API Key",
 		"achange7": "API key wrong, no API key added"
 	},
+	"trades" : {
+		"declineToSign": "User declined to sign requested foreign fees for trade offers!"
+	},
 	"transactions": {
 		"amount": "Amount",
 		"to": "To",
@@ -1418,6 +1421,7 @@
 		"mpchange84": "FAILURE",
 		"mpchange85": "SUCCESS",
 		"mpchange86": "Always allow get wallet balance automatically",
-		"mpchange87": "Please Enter The Group ID"
+		"mpchange87": "Please Enter The Group ID",
+		"mpchange88": "Do you give this application permission to sign the required fees for all your trade offers?"
 	}
 }

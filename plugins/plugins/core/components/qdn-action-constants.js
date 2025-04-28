@@ -237,5 +237,6 @@ export const listOfAllQortalRequests = [
 	'REMOVE_FOREIGN_SERVER',
 	'GET_DAY_SUMMARY',
 	'SIGN_TRANSACTION',
-	'SEND_COIN'
+	'SEND_COIN',
+	'SIGN_FOREIGN_FEES'
 ]
