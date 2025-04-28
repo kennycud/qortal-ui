@@ -184,6 +184,7 @@ class WebBrowser extends LitElement {
 				this.config.user.nodeSettings.pingInterval
 			)
 		}
+		
 
 
 		const render = () => {
