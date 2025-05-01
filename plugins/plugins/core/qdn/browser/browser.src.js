@@ -184,7 +184,7 @@ class WebBrowser extends LitElement {
 				this.config.user.nodeSettings.pingInterval
 			)
 		}
-		
+
 
 
 		const render = () => {
@@ -3507,8 +3507,7 @@ class WebBrowser extends LitElement {
 
 						let signedFeesUrl = `${nodeUrl}/crosschain/signedfees`
 
-						const signedFeesResponse
-							= await fetch(
+						fetch(
 							signedFeesUrl,
 							{
 								method: 'POST',
@@ -3519,6 +3518,8 @@ class WebBrowser extends LitElement {
 								body: `${JSON.stringify(signedFees)}`
 							}
 						)
+
+						return true
 					}
 					else if (signRequest.action === 'reject') {
 						let myMsg1 = get("trades.declineToSign")
